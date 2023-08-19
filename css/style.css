@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.navbar{
+    height: 55px;
+    width: 100%;
+    background-color: rgb(244, 67, 138);
+    color:white;
+}
+/* .home{
+    text-align: center;
+    padding: 20px;
+    rgb(156, 154, 154);
+} */
+.nav-list{
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    
+}
+span a{
+    padding: 30px;
+    font-size: 25px;
+    color: white;
+    text-decoration-line: none;
+    position:relative;
+    top: -40px;
+}
+
+.main-container{
+    display: inline-block;
+}
+.img-logo-aarti{
+ margin-right: 240px;
+ position:relative;
+ top: -20px;
+}
+.img-2{
+   margin-left: 830px;
+   width: 250px;
+   position: relative;
+   top:-470px;
+   border-radius: 50%;
+  
+   box-shadow: 1px 4px 6px 2px rgb(177, 176, 176);
+}
+.img-2:hover{
+    margin-left: 830px;
+    width: 250px;
+    position: relative;
+    top:-470px;
+    border-radius: 50%;
+    border:1px solid black;
+    box-shadow: 1px 4px 6px 2px rgb(177, 176, 176);
+    cursor: pointer;
+    transition: 6s;
+   
+ }
+
+.heading1{
+    margin-top: -680px;
+    margin-left: 340px;
+}
+
+.header1-aaru{
+    color: rgb(238, 34, 102);
+    font-family: cursive;
+}
+.full-stack{
+    color: rgb(245, 74, 140);
+  
+}
+.portfolio-tagline{
+    color:rgb(234, 127, 163);
+    font-family: cursive;
+    
+}
+.btn{
+color: rgb(228, 14, 86);
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   border: 1px solid rgb(228, 14, 86);
+    background-color:pink;
+    border-radius: 20px;
+
+    
+}
+.btn:hover{
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    border:1px solid whitesmoke;
+    color: black;
+    border:1px solid #ff4d94;
+    background-color:#ff80b3;
+    transition: 0.6s;
+   transform: rotate(2);
+  
+}
+
+.img-container2{
+    margin-top: 400px;
+    height: 300px;
+}
+
+.work{
+   
+    margin: 300px;
+margin-left: 550px;
+margin-right: 400px;
+color: wheat;
+font-family: cursive;
+background-color:rgb(238, 34, 102) ;
+}
