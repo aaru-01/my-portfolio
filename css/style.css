@@ -1,87 +1,98 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-
-
-
-
-.navbar{
+.navbar {
     height: 55px;
     width: 100%;
     background-color: rgb(244, 67, 138);
-    color:white;
+    color: white;
+
 }
+
 /* .home{
     text-align: center;
     padding: 20px;
     rgb(156, 154, 154);
 } */
-.nav-list{
+.nav-list {
     text-align: center;
     text-decoration: none;
     padding: 20px;
-    
+
 }
-span a{
+
+span a {
     padding: 30px;
     font-size: 25px;
     color: white;
     text-decoration-line: none;
-    position:relative;
+    position: relative;
     top: -40px;
 }
 
-.main-container{
+.main-container {
     display: inline-block;
+    height: 300px;
 }
-.img-logo-aarti{
- margin-right: 240px;
- position:relative;
- top: -20px;
+
+.img-logo-aarti {
+    margin-right: 240px;
+    position: relative;
+    top: -20px;
 }
-.img-2{
-   margin-left: 830px;
-   width: 250px;
-   position: relative;
-   top:-470px;
-   border-radius: 50%;
-  
-   box-shadow: 1px 4px 6px 2px rgb(177, 176, 176);
+
+.img-pink {
+    border-radius: 0 0 400px 0;
+    /* box-shadow: 0 0 3px 1px rgb(244, 105, 151); */
 }
-.img-2:hover{
-    margin-left: 830px;
+
+.img-2 {
+    margin-left: 799px;
     width: 250px;
     position: relative;
-    top:-470px;
+    top: -470px;
     border-radius: 50%;
-    border:1px solid black;
     box-shadow: 1px 4px 6px 2px rgb(177, 176, 176);
-    cursor: pointer;
-    transition: 6s;
-   
- }
-
-.heading1{
-    margin-top: -680px;
-    margin-left: 340px;
 }
 
-.header1-aaru{
+/* .img-2:hover {
+    margin-left: 810px;
+    width: 250px;
+    position: relative;
+    top: -470px;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 1px 4px 6px 2px rgb(177, 176, 176);
+    cursor: pointer;
+    transition: 3s;
+
+} */
+
+.heading1 {
+    margin-top: -690px;
+    margin-left: 340px;
+
+}
+
+.header1-aaru {
     color: rgb(238, 34, 102);
     font-family: cursive;
 }
-.full-stack{
+
+.full-stack {
     color: rgb(245, 74, 140);
-  
+
 }
-.portfolio-tagline{
-    color:rgb(234, 127, 163);
+
+.portfolio-tagline {
+    color: rgb(234, 127, 163);
     font-family: cursive;
-    
+
 }
-.btn{
-color: rgb(228, 14, 86);
+
+.btn {
+    color: rgb(228, 14, 86);
     padding: 5px;
     margin-top: 20px;
     margin-left: 100px;
@@ -89,13 +100,14 @@ color: rgb(228, 14, 86);
     padding-right: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
-   border: 1px solid rgb(228, 14, 86);
-    background-color:pink;
+    border: 1px solid rgb(228, 14, 86);
+    background-color: pink;
     border-radius: 20px;
 
-    
+
 }
-.btn:hover{
+
+.btn:hover {
     padding: 5px;
     margin-top: 20px;
     margin-left: 100px;
@@ -104,26 +116,148 @@ color: rgb(228, 14, 86);
     padding-top: 5px;
     padding-bottom: 5px;
 
-    border:1px solid whitesmoke;
+    border: 1px solid whitesmoke;
     color: black;
-    border:1px solid #ff4d94;
-    background-color:#ff80b3;
+    border: 1px solid #ff4d94;
+    background-color: #ff80b3;
     transition: 0.6s;
-   transform: rotate(2);
-  
+    transform: rotate(2);
+
 }
 
-.img-container2{
+.img-container2 {
     margin-top: 400px;
     height: 300px;
 }
 
-.work{
-   
+.work {
     margin: 300px;
-margin-left: 550px;
-margin-right: 400px;
-color: wheat;
-font-family: cursive;
-background-color:rgb(238, 34, 102) ;
+    margin-left: 280px;
+    margin-right: 280px;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    background-color:rgb(238, 34, 102);
+    border-radius: 160px 0 160px 0;
+     border: 1px solid rgb(228, 14, 86);
+    
 }
+
+/* .work:hover{
+    margin: 300px;
+    margin-left: 280px;
+    margin-right: 280px;
+    color:white;
+    text-align: center;
+    font-family: cursive;
+    background-color: rgb(228, 14, 86);
+    border-radius: 160px 0 160px 0;
+     border: 1px solid rgb(228, 14, 86);
+     cursor: pointer;
+     transition: 0.5s;
+    } */
+
+.container-work-card {
+    height: 400px;
+    width: 962px;
+    color: rgb(239, 54, 116);
+    background-color: white;
+    box-shadow:  0 2px 4px 2px rgb(147, 147, 147);
+    margin-top: -210px;
+    margin-left: 300px;
+    border-radius: 800px 0 0 0;
+    margin-bottom: 20px;
+
+
+}
+
+.skill {
+    margin-top: 80px;
+    margin-left: 280px;
+    margin-right: 280px;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    background-color: rgb(238, 34, 102);
+    border-radius: 160px 0 160px 0;
+}
+
+.container-work-card2 {
+    height: 400px;
+    width: 962px;
+    color: rgb(239, 54, 116);
+    background-color: white;
+    border-radius: 0 0 800px 0;
+    margin-top: 80px;
+    box-shadow:  0 2px 4px 2px rgb(147, 147, 147);
+}
+
+.container-lines{
+  font-family: cursive;
+   font-size: 28px;
+   position: relative;
+   left:50px;
+ top: 150px;
+}
+.project-skill-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    height: 510px;
+    background-color: aliceblue;
+    margin: 33px;
+  
+    margin-top: 70px;
+    margin-bottom: 70px;
+    box-shadow: 0 2px 4px 2px rgb(147, 147, 147);
+}
+.project{
+    height: 460px;
+    width: 300px;
+    color: #ff4d94;
+    background-color: white;
+    box-shadow: 0 2px 4px 2px rgb(147, 147, 147);
+    margin-top: 24px;
+}
+.heading2{
+    text-align: center;
+   color:rgb(238, 34, 102);
+  
+}
+.groco-info{
+  text-align: justify;
+  padding-left: 1px;
+  padding-right: 1px;
+  margin-bottom: 8px;
+  color: rgb(231, 62, 118);
+}
+.project-button{
+    height: 30px;
+    color: rgb(228, 14, 86);
+    background-color: pink;
+    border: 1px solid rgb(228, 14, 86);
+    padding-left: 10px;
+    padding: 5px;
+    padding-right: 10px;
+   text-decoration:none;
+   margin-left: 35px;
+}
+.project-button:hover{
+    height: 30px;
+    color:white;
+    background-color: rgb(228, 14, 86);
+    border: 1px solid rgb(228, 14, 86);
+    padding-left: 10px;
+    padding: 5px;
+    padding-right: 10px;
+   text-decoration:none;
+   margin-left: 35px;
+}
+   
+}
+
+/* .btn-cube{
+     margin: 10px;
+     margin-top: 60px;
+
+} */
