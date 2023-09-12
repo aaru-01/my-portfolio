@@ -5,22 +5,23 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/style.css" />
 </head>
-   <body>
+
+<body>
     <nav class="navbar">
         <span class="heading">AARTI &nbsp;MEDHE</span>
         <div class="navbar-lists">
-            <span class="list"><a href=""><b>HOME</b></a></span>
-            <span class="list"><a href=""><b>SKILLS</b></a></span>
-            <span class="list"><a href=""><b>PROJECTS</b></a></span>
-            <span class="list"><a href=""><b>ABOUT</b></a></span>
-            <span class="list"><a href=""><b>CONTACT</b></a></span>
+            <span class="list"><a href="#home"><b>HOME</b></a></span>
+            <span class="list"><a href="#my-skills"><b>SKILLS</b></a></span>
+            <span class="list"><a href="#projects-id"><b>PROJECTS</b></a></span>
+            <span class="list"><a href="#about-id"><b>ABOUT</b></a></span>
+            <span class="list"><a href="#contact-id"><b>CONTACT</b></a></span>
         </div>
     </nav>
 
 
     <div class="main-container-img-tagline">
         <div class="tagline-info">
-            <h1 class="tagline">HEY, I'M AARTI MEDHE</h1>
+            <h1 class="tagline" id="home">HEY, I'M AARTI MEDHE</h1>
             <span class="info-mern-stack"> &nbsp;&nbsp; A Mern stack Developer Passionate About<br /> &nbsp; &nbsp;
                 Coding.I have ability to grasp New Skills <br /> &nbsp; &nbsp;&nbsp;&nbsp;Quickly.Always ready to try
                 Hands-On-<br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;New and Emerging Technologies.</span>
@@ -32,7 +33,7 @@
         </div>
     </div>
     <br /><br /><br /><br /><br /><br />
-    <h2 class="skills">MY &nbsp;SKILLS</h2>
+    <h2 class="skills" id="my-skills">MY &nbsp;SKILLS</h2>
     <br />
     <br />
 
@@ -68,7 +69,7 @@
 
     <br />
     <br />
-    <h2 class="skills">PROJECTS</h2><br />
+    <h2 class="skills" id="projects-id">PROJECTS</h2><br />
     <br />
     <h3 class="heading2">Hey You Will Find Some Of My Personal Projects That I Created Is Given Below..</h3>
 
@@ -143,17 +144,149 @@
         </div>
     </div>
 
-    <h2 class="skills">ABOUT</h2><br />
+    <h2 class="skills" id="about-id">ABOUT</h2><br />
     <div class="main-about-container">
         <div class="about-container">
             <div class="img-aarti-container">
-         <img src="./img/aarti.jpg" class="img-aarti"/>
-        </div>
+                <img src="./img/aarti.jpg" class="img-aarti" />
+            </div>
 
-        <h3 class="">EDUCATION</h3>
-        </div>
 
+            <div class="education-container">
+                <h2 class="know-me">GET KNOW TO ME</h2>
+                <br />
+                <h3 class="about-heading">EDUCATION</h3><br />
+
+                <div class="info-about-degree">
+                    <div class="info-education">Bachelor OF Computer Application (BCA) <br />
+                        <div class="clg-list">
+                            <ul>
+                                <li> Arts,Science And Commerce College, Rahuri.</li>
+                                <li class="year">Aug 2021 - Apr 2023</li>
+                            </ul>
+                            <!-- And I currently Learning MERN STACK<br/>DEVELOPMENT Course In ROAD TO CODE, Pune.  -->
+                        </div>
+                    </div>
+
+                    <br /><br /><br /><br /><br /><br />
+
+                    <div class="info-education">HSC BOARD<br />
+                        <div class="clg-list">
+                            <ul>
+                                <li><span class="Vidyapith">Savitri Bai Phule Krushi Vidyapith,Rahuri.</span></li>
+                                <li class="year">July 2017 - Feb 2019</li>
+                            </ul>
+                            <!-- And I currently Learning MERN STACK<br/>DEVELOPMENT Course In ROAD TO CODE, Pune.  -->
+                        </div>
+                    </div>
+
+                    <br /><br /><br /><br /><br /><br />
+
+                    <div class="info-education">SSC BOARD<br />
+                        <div class="clg-list">
+                            <ul>
+                                <li><span class="Vidyamandir">Vidya Mandir Prashala, Rahuri.</span></li>
+                                <li class="year">March 2017</li>
+                            </ul>
+                            <!-- And I currently Learning MERN STACK<br/>DEVELOPMENT Course In ROAD TO CODE, Pune.  -->
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                </div>
+ </div>
+        </div>
+</div>
+
+<h2 class="skills contact" id="contact-id">CONTACT</h2><br />
+<br/>
+<div>
+    <div class="contact-container">
+        <br/>
+        <h1 class="heading-contact">CONTACT ME 📞</h1>
+    <br/><br/><br/>
+        <!-- <label>Enter </label> -->
+    <input type="text" class="input-box" placeholder="Enter Your Full Name"/><br/><br/>
+    <input type="text" class="input-box" placeholder="Enter Your Email"/><br/><br/>
+    <input type="text" class="input-box" placeholder="Enter Your Mobile No"/><br/><br/>
+    <input type="text" class="input-box" placeholder="Enter Subject"/><br/><br/>
+    <input type="text" class="input-box" placeholder="Enter Your Message"/>    
+    
+    <br/><br/><br/>
+    <button type="button" class="msg-btn">↪ Send Message</button>
+    
+    
+    
     </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>
+<!-- .main-about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about-container {
+    height: 500px;
+    width: 950px;
+    margin: 15px;
+    background-color: white;
+    box-shadow: 0 2px 4px 2px gray;
+
+}
+.img-aarti{
+    border-radius: 100%;
+    margin-top: -15px;
+    position: absolute;
+    right: 30px;
+border: 1px solid gray;
+    height: 220px;
+    width: 180px;
+    border-radius: 100%;
+   
+   
+}
+.img-aarti-container{
+    position: relative;
+    height: 199px;
+    width: 150px;
+    background-color: white;
+    box-shadow: 0 2px 4px 2px gray;
+    padding: 30px;
+    margin: 10px;
+    margin-top: 90px;
+    margin-left: 120px;
+    border-radius: 100%;
+    background-color: rgb(251, 252, 253);
+}
+ -->
