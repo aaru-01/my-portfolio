@@ -9,8 +9,8 @@
 
 #### This is My Portfolio Website..!!
 <p>In My Portfolio, I have used html language for structuring and css for styling the portfolio website. My Homepage be like..</p>
-	![alt text](homepage.jpg)
- <!-- <img src="./img/homepage.jpg " height="200" width="400" alt=""/>  -->
+	
+ <img src="./img/homepage.jpg " height="200" width="400" alt="home"/> 
 
 
 
